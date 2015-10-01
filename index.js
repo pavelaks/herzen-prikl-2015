@@ -3,7 +3,10 @@ var http = require("http");
 http.createServer(function(request, response) {
 	console.log("Wow! New connection!");
 	response.writeHead(200, {"Content-Type": "text/plain"});
-	response.write("OK.");
-	response.end();
+	setTimeout(
+		function() {
+			response.write("Timeout callback executed. Close connection.");
+			response.end();
+		}, 10000)
 	
 }).listen(8888)
