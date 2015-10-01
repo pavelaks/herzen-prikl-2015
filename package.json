@@ -1,6 +1,6 @@
 {
   "name": "Blog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My nodejs project",
   "main": "index.js",
   "dependencies": {
