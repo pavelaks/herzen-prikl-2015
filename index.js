@@ -8,6 +8,5 @@ http.createServer(function(request, response) {
 		  if (err){console.log("Ошибка чтения файла")};
 		  response.write(data);
 		  response.end();
-		});
-	})
+	});
 }).listen(8888)
