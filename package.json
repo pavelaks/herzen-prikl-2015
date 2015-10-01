@@ -11,12 +11,13 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js" 
+    "start": "npm install && node index.js" 
   },
-  "repository:" {
+  "repository": {
 	  "type": "git",
 	  "url": "https://github.com/pavelaks/herzen-prikl-2015"
-  }
+  },
+  "readme": "README.md",
   "author": "Pavel Aks",
   "license": "ISC"
 }
