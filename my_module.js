@@ -1,4 +1,7 @@
-var hello = function() {
-  console.log("Hello! From module...");						
+exports.say_hello = function() {
+  console.log("Hello from Module!");						
 }
-module.exports = hello;
+
+exports.say_goodbye = function() {
+  console.log("Goodbye from Module!");						
+}
