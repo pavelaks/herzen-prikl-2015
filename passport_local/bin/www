@@ -1,11 +1,11 @@
-#!/usr/bin/env node
+#!/usr/bin/env nodejs
 
 /**
  * Module dependencies.
  */
 
 var app = require('../app');
-var debug = require('debug')('passport_local:server');
+var debug = require('debug')('workspace:server');
 var http = require('http');
 
 /**
